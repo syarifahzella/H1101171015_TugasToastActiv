@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nimm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nimm"
+        android:textSize="160sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.778"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497" />
+
+    <Button
+        android:id="@+id/Hallozella"
+        android:layout_width="322dp"
+        android:layout_height="136dp"
+        android:background="#00FDF1F1"
+        android:text="@string/Hallozella"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="2dp"
+        android:onClick="HalloZellat"/>
+
+    <Button
+        android:id="@+id/countup"
+        android:layout_width="321dp"
+        android:layout_height="129dp"
+        android:background="#2196F3"
+        android:text="@string/countup"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="138dp"
+        android:onClick="CountUp" />
+
+    <Button
+        android:id="@+id/CountDown"
+        android:layout_width="327dp"
+        android:layout_height="141dp"
+        android:background="#2196F3"
+        android:text="@string/countdown"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="274dp"
+        android:onClick="CountDown"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

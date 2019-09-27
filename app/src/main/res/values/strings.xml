@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">H1101171015_TugasToastActiv</string>
+    <string name="Hallozella">Hallo Zella!</string>
+    <string name="countup">CountUp</string>
+    <string name="countdown">CountDown</string>
+    <string name="Hallozella_message">Hallo Zella!</string>
+    <string name="nim">0</string>
+    <string name="nimm">15</string>
+</resources>
